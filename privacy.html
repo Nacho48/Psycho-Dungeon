@@ -25,20 +25,23 @@ code{font:14px "IBM Plex Mono",monospace;background:var(--panel);border:1px soli
 a{color:var(--accent)}a:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
 .nav{display:flex;gap:18px;flex-wrap:wrap;font:14px "IBM Plex Mono",monospace}.nav a{color:var(--muted);text-decoration:none}.nav a:hover{color:var(--accent)}
 </style>
+<style>.fic{border:1px solid var(--rule);border-left:3px solid var(--accent);border-radius:8px;padding:14px 16px;background:var(--panel);font-size:15px}ol.sec{list-style:none;padding:0;margin:0;display:flex;flex-direction:column;gap:26px;counter-reset:s}ol.sec>li{counter-increment:s;display:flex;flex-direction:column;gap:8px}ol.sec>li>h2::before{content:counter(s) ". ";color:var(--accent)}</style>
 </head>
 <body>
 <main>
 <nav class="nav"><a href="./">Psycho Dungeon</a><a href="terms.html">Terms</a><a href="privacy.html">Privacy</a></nav>
-
-<header><span class="rec">Psycho Dungeon gameplay</span><h1>Privacy Policy</h1><p class="meta">Last updated: 27 September 2026</p></header>
-<section><h2>Short version</h2><p>Psycho Dungeon gameplay runs only on your own PC. It has no servers, no analytics and no advertising. The developer does not receive, store or share any of your data.</p></section>
-<section><h2>Data the tool handles</h2><ul><li><strong>TikTok sign-in data:</strong> when you connect your account, TikTok returns an access token, a refresh token and your <code>open_id</code>. They are saved only on your PC, in your Windows user profile (<code>%APPDATA%\MazmorraTikTok\</code>), and are used only to upload drafts to your account.</li><li><strong>Your videos:</strong> gameplay clips recorded on your PC and the edited videos made from them. They are sent only to TikTok, to your drafts inbox, when the tool uploads them.</li><li><strong>A local log</strong> of which videos were uploaded and when, stored on your PC.</li></ul></section>
-<section><h2>Permissions requested</h2><ul><li><code>user.info.basic</code>: needed by TikTok Login Kit to identify your account.</li><li><code>video.upload</code>: to send videos to your drafts inbox. The tool never publishes directly.</li></ul></section>
-<section><h2>Sharing</h2><p>Nothing is shared with anyone except TikTok itself, which receives the videos you upload. TikTok's handling of that content is covered by TikTok's own Privacy Policy.</p></section>
-<section><h2>Deleting your data</h2><ul><li>Revoke access in the TikTok app: Settings and privacy → Security and permissions → Manage app permissions.</li><li>Delete the folder <code>%APPDATA%\MazmorraTikTok\</code> on your PC to remove the saved tokens.</li><li>Delete drafts from your TikTok inbox as usual.</li></ul></section>
-<section><h2>Children</h2><p>The tool is not intended for anyone under the minimum age required to use TikTok.</p></section>
-<section><h2>Contact</h2><p>Open an issue at <a href="https://github.com/Nacho48/Psycho-Dungeon/issues">https://github.com/Nacho48/Psycho-Dungeon/issues</a>. Abre una incidencia en ese enlace.</p></section>
-<div class="es"><strong>En español.</strong> La herramienta funciona solo en tu PC: sin servidores, sin analítica y sin anuncios. Los tokens de TikTok se guardan en tu perfil de Windows y solo sirven para subir borradores a tu cuenta. Nada se comparte con nadie salvo los vídeos que subes a TikTok. Para borrarlo todo, quita el permiso en TikTok y borra la carpeta <code>%APPDATA%\MazmorraTikTok\</code>.</div>
+<header><span class="rec">Psycho Dungeon</span><h1>Privacy Policy</h1><p class="meta">Last updated: 27 September 2026</p></header>
+<ol class="sec">
+<li><h2>Who is responsible</h2><p>The developer of <strong>Psycho Dungeon</strong> is responsible for the data described here. Contact: <a href="https://github.com/Nacho48/Psycho-Dungeon/issues">https://github.com/Nacho48/Psycho-Dungeon/issues</a>.</p></li>
+<li><h2>No data from other people</h2><p>Psycho Dungeon gameplay is a private tool that only we use, with our own TikTok account. It does not collect, receive or store personal data from any other person: not from viewers, not from followers, not from anyone who visits this website.</p></li>
+<li><h2>What the tool handles, and only for our own account</h2><ul><li><strong>Our TikTok sign-in:</strong> the access token, refresh token and account ID (<code>open_id</code>) that TikTok returns when we connect our account. They are kept only on our own computer and are used only to upload drafts.</li><li><strong>Our gameplay videos:</strong> clips of the game recorded on our computer, edited and sent to our TikTok drafts.</li><li><strong>A local log</strong> of which videos were uploaded and when.</li></ul><p>None of this is sent to any server of ours (we have none), sold, or shared with anyone except TikTok, which receives the videos we upload.</p></li>
+<li><h2>The game is fiction</h2><p class="fic">Psycho Dungeon is a work of fiction. The "reality show", its broadcasts, audience, sponsors, brands, contestants and the AI that runs the dungeon are all invented game elements. There are no real sponsors, no real contestants and no real show. Any resemblance to real people, companies or programmes is coincidental. No real person's data is used to create them.</p></li>
+<li><h2>This website</h2><p>This site has no cookies, no analytics and no forms. It is hosted on GitHub Pages; GitHub may keep technical logs such as IP addresses, as described in the <a href="https://docs.github.com/site-policy/privacy-policies/github-privacy-statement">GitHub Privacy Statement</a>.</p></li>
+<li><h2>Keeping and deleting</h2><p>The TikTok tokens are kept while the tool is connected and are deleted when we disconnect it. We can revoke the tool's access at any time from the TikTok app.</p></li>
+<li><h2>Your rights</h2><p>If you believe we hold any data about you, you can ask us to access or delete it through the contact above. You may also complain to your data protection authority (in Spain, the <a href="https://www.aepd.es">AEPD</a>).</p></li>
+<li><h2>Changes</h2><p>We may update this policy. The date at the top shows the current version.</p></li>
+</ol>
+<div class="es"><strong>En español.</strong> «Psycho Dungeon gameplay» es una herramienta privada del desarrollador y solo trabaja con la cuenta de TikTok del propio juego. <strong>No recoge datos de nadie más.</strong> Los tokens de TikTok se guardan solo en el ordenador del desarrollador y sirven únicamente para subir borradores. Esta web no usa cookies, analítica ni formularios. Todo lo que aparece en el juego (reality, patrocinadores, concursantes) es ficción.</div>
 </main>
 </body>
 </html>
