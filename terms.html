@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Psycho Dungeon Terms</title>
+<link rel="icon" href="icon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@600&family=IBM+Plex+Sans:wght@400;600&family=IBM+Plex+Mono:wght@400&display=swap">
+<style>
+:root{color-scheme:dark;--bg:#0e0a14;--panel:#16101f;--text:#ece6f2;--muted:#a597b8;--accent:#ff3b6b;--rule:#2a2036}
+body{background:var(--bg);color:var(--text);font:16px/1.65 "IBM Plex Sans",system-ui,sans-serif;padding-inline:20px;padding-block:40px 64px}
+main{max-width:68ch;margin:0 auto;display:flex;flex-direction:column;gap:28px}
+header{display:flex;flex-direction:column;gap:6px;border-bottom:1px solid var(--rule);padding-bottom:22px}
+.rec{font:12px/1 "IBM Plex Mono",monospace;letter-spacing:.14em;text-transform:uppercase;color:var(--accent);display:flex;align-items:center;gap:8px}
+.rec::before{content:"";width:9px;height:9px;border-radius:50%;background:var(--accent);box-shadow:0 0 10px var(--accent)}
+h1{font:600 clamp(28px,6vw,40px)/1.1 "Pixelify Sans",monospace;margin:4px 0 0;text-wrap:balance}
+.meta{color:var(--muted);font-size:14px;margin:0}
+section{display:flex;flex-direction:column;gap:8px}
+h2{font:600 18px/1.3 "IBM Plex Sans",sans-serif;margin:0;text-wrap:balance}
+p,ul{margin:0}ul{padding-left:1.2em;display:flex;flex-direction:column;gap:4px}
+code{font:14px "IBM Plex Mono",monospace;background:var(--panel);border:1px solid var(--rule);padding:1px 6px;border-radius:4px;word-break:break-word}
+.es{background:var(--panel);border:1px solid var(--rule);border-radius:8px;padding:16px 18px;color:var(--muted);font-size:15px}
+.es strong{color:var(--text)}
+a{color:var(--accent)}a:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+.nav{display:flex;gap:18px;flex-wrap:wrap;font:14px "IBM Plex Mono",monospace}.nav a{color:var(--muted);text-decoration:none}.nav a:hover{color:var(--accent)}
+</style>
+</head>
+<body>
+<main>
+<nav class="nav"><a href="./">Psycho Dungeon</a><a href="terms.html">Terms</a><a href="privacy.html">Privacy</a></nav>
+
+<header><span class="rec">Psycho Dungeon gameplay</span><h1>Terms of Service</h1><p class="meta">Last updated: 27 September 2026</p></header>
+<section><h2>What the app is</h2><p>Psycho Dungeon gameplay is a small desktop tool that runs on the owner's own Windows PC. It takes gameplay clips of the video game <em>Psycho Dungeon</em> (also known as <em>Mazmorra en Directo</em>), edits them into vertical videos, and uploads them to the user's own TikTok account as drafts through TikTok's Content Posting API. The user reviews each draft in the TikTok app and decides whether to publish it.</p></section>
+<section><h2>Who can use it</h2><p>The tool is operated by the Psycho Dungeon developer for the game's own TikTok account. It is not offered as a service to the public. Anyone who uses it must have a TikTok account in good standing and must follow TikTok's Terms of Service and Community Guidelines.</p></section>
+<section><h2>What the tool does on your account</h2><ul><li>It signs you in with TikTok Login Kit and asks for two permissions: <code>user.info.basic</code> and <code>video.upload</code>.</li><li>It only uploads videos to your drafts inbox. It never publishes anything, never deletes content, and never reads your messages or followers.</li><li>You can stop it at any time by revoking access in the TikTok app (Settings and privacy → Security and permissions → Manage app permissions).</li></ul></section>
+<section><h2>Your content</h2><p>You keep all rights to your gameplay videos. You are responsible for what you choose to publish, including any music or sound you add in the TikTok editor.</p></section>
+<section><h2>No warranty</h2><p>The tool is provided as is, without warranties of any kind. The developer is not liable for failed uploads, lost drafts, or any other damage arising from its use, to the extent permitted by law.</p></section>
+<section><h2>Changes</h2><p>These terms may change when the tool changes. The date at the top shows the latest version.</p></section>
+<section><h2>Contact</h2><p>Open an issue at <a href="https://github.com/Nacho48/Psycho-Dungeon/issues">https://github.com/Nacho48/Psycho-Dungeon/issues</a>. Abre una incidencia en ese enlace.</p></section>
+<div class="es"><strong>En español.</strong> Herramienta de escritorio que sube a tus borradores de TikTok los clips de tus partidas de Psycho Dungeon. Solo sube borradores; publicar lo decides tú desde la app. Se usa bajo tu responsabilidad y respetando las normas de TikTok. Puedes retirarle el permiso cuando quieras desde los ajustes de TikTok.</div>
+</main>
+</body>
+</html>
